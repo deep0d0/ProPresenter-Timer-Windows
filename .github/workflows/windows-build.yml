@@ -2,9 +2,9 @@ name: Build Windows EXE (x64 + ARM64)
 
 on:
   push:
-    branches: [ "Windows-FeatureParity" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "Windows-FeatureParity" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
